@@ -1,0 +1,18 @@
+# DevOps Project 1 - Day 1
+
+## Objective
+Deploy a Node.js + Express application on AWS EC2.
+
+## Technologies
+- AWS EC2
+- Ubuntu
+- Node.js
+- Express
+
+## Commands Learned
+
+```bash
+npm init -y
+npm install express
+node app.js
+curl http://localhost:3000

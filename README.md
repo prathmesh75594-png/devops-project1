@@ -18,7 +18,37 @@ The pipeline automatically:
 - Reports build status
 
 ---
+## 🏗️ Architecture
 
+```text
+                +--------------------+
+                |     Developer      |
+                +---------+----------+
+                          |
+                          | git push
+                          v
+                +--------------------+
+                |      GitHub        |
+                +---------+----------+
+                          |
+                          | Webhook / Poll SCM
+                          v
+                +--------------------+
+                |      Jenkins       |
+                +---------+----------+
+                          |
+                          | Build Pipeline
+                          v
+                +--------------------+
+                |   Docker Build     |
+                +---------+----------+
+                          |
+                          | Creates
+                          v
+                +--------------------+
+                |   Docker Image     |
+                +--------------------+
+```
 ## 🛠️ Tech Stack
 
 - AWS EC2

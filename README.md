@@ -69,28 +69,7 @@ The pipeline automatically:
 
 ---
 
-## 🏗️ Architecture
 
-```text
-Developer
-     │
-     ▼
-GitHub
-     │
-     ▼
-Jenkins (AWS EC2)
-     │
-     ▼
-Clone Repository
-     │
-     ▼
-Docker Build
-     │
-     ▼
-Docker Image
-```
-
----
 
 ## 🚀 Result
 

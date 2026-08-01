@@ -73,3 +73,22 @@ Docker Image
 - Jenkins
 - AWS EC2
 - CI Pipeline
+---
+
+# 📸 Project Screenshots
+
+## Jenkins Dashboard
+
+![Jenkins Dashboard](screenshots/jenkins-dashboard.png)
+
+---
+
+## Successful Jenkins Pipeline Build
+
+![Pipeline Build](screenshots/jenkins-build-success.png)
+
+---
+
+## Docker Images
+
+![Docker Images](screenshots/docker-images.png)

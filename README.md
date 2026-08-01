@@ -85,8 +85,7 @@ Docker Image
 
 ## Successful Jenkins Pipeline Build
 
-![Pipeline Build](screenshots/jenkins-build-success.png)
-
+![Pipeline Build](screenshots/jenkins-pipeline-success.png)
 ---
 
 ## Docker Images

@@ -10,7 +10,7 @@
 
 This project demonstrates a Continuous Integration (CI) pipeline using Jenkins, Docker, GitHub, and AWS EC2.
 
-The pipeline automatically:
+The pipeline automatically:-
 
 - Clones the GitHub repository
 - Checks Docker availability
